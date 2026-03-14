@@ -1,1 +1,28 @@
+# Lab: Create User Accounts
 
+## Objective
+Create, review, modify, and delete local user accounts in Windows.
+
+## Key Tasks
+- Created a new local user account (User1)
+- Reviewed account permissions and folder access
+- Checked user group membership
+- Modified account privileges
+- Deleted the user account
+
+## Key Findings
+- The account created was a **Standard User**.
+- The **Users group** had access to the User1 folder.
+- The **CyberOpsUser account belongs to the Administrators group**.
+- Changing User1 to Administrator added it to the **Administrators group**.
+
+## Reflection Questions
+
+### Why is it important to protect all accounts with strong passwords?
+Strong passwords prevent unauthorized access to accounts and protect sensitive system data from attackers.
+
+### Why create a user with Standard privileges?
+Standard users have limited permissions, preventing them from installing software or changing system settings. This improves system security.
+
+### Another way to delete a user account
+Using **Command Prompt with the `net user` command**.
